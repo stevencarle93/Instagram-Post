@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+    margin: 0px;
+}
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+#titular{
+    justify-content: center;
+    background-color: white;
+}
+#contenido{
+    align-items: center;
+}
+.titular-post{
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+}
+.titular-post h3{
+    display:inline
+}
+.post{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+.post p {
+    padding:5px;
+}
